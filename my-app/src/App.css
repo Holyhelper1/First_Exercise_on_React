@@ -43,3 +43,25 @@
 	color: #61dafb;
 	font-size: 20px;
 }
+
+.btn-style {
+	background-color: rgb(29, 29, 29);
+	border: solid aqua 1px;
+	border-radius: 10px;
+	color: #61dafb;
+	height: 25px;
+	width: 130px;
+transition: 0.5s;
+box-shadow: 0px 2px 5px rgba(4, 157, 240, 0.3);
+/* transition: box-shadow 0.7s ease; */
+
+}
+
+.btn-style:hover {
+	background-color: rgb(4, 209, 236);
+	border: solid rgb(255, 255, 255) 1px;
+	color: black;
+	box-shadow: 0px 4px 10px rgba(9, 164, 230, 0.5);
+	width: 135px;
+}
+
