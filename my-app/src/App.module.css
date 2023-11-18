@@ -1,0 +1,127 @@
+.app {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 1s linear;
+	}
+}
+
+.header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.App-year {
+	background-color: #282c34;
+	margin-top: 10px;
+	color: #61dafb;
+	font-size: 20px;
+}
+
+.btnStyle {
+	background-color: rgb(29, 29, 29);
+	border: solid aqua 1px;
+	border-radius: 10px;
+	color: #61dafb;
+	height: 25px;
+	width: 130px;
+	transition: 0.5s;
+	box-shadow: 0px 2px 5px rgba(4, 157, 240, 0.3);
+	/* transition: box-shadow 0.7s ease; */
+}
+
+.btnStyle:hover {
+	background-color: rgb(4, 209, 236);
+	border: solid rgb(255, 255, 255) 1px;
+	color: black;
+	box-shadow: 0px 4px 10px rgba(9, 164, 230, 0.5);
+	width: 135px;
+}
+
+.resultDisplay {
+	text-align: left;
+	border: solid aqua 1px;
+	background: rgb(57, 60, 63);
+	color: #61dafb;
+	border-radius: 5px;
+	box-shadow: 0px 4px 10px rgba(9, 164, 230, 0.5);
+}
+.inputDisplay {
+	width: 170px;
+	height: 40px;
+	text-align: left;
+	border: solid aqua 1px;
+	background: rgb(57, 60, 63);
+	color: #61dafb;
+	border-radius: 5px;
+	box-shadow: 0px 4px 10px rgba(9, 164, 230, 0.5);
+	font-size: 25px;
+}
+
+.calcButtons {
+	margin: 2px;
+	width: 40px;
+	height: 40px;
+	background-color: rgb(29, 29, 29);
+	border: solid aqua 1px;
+	border-radius: 5px;
+	color: #61dafb;
+	font-size: 20px;
+	transition: 0.5s;
+	box-shadow: 0px 2px 5px rgba(4, 157, 240, 0.7);
+}
+.calcButtons:hover {
+	background-color: rgb(4, 209, 236);
+	border: solid rgb(255, 255, 255) 1px;
+	color: black;
+	box-shadow: 0px 4px 10px rgba(9, 164, 230, 0.5);
+	width: 50px;
+}
+.wrapperCalc {
+	width: 200px;
+}
+
+.resultColor {
+	width: 170px;
+	height: 40px;
+	text-align: left;
+	border: solid aqua 1px;
+	background: rgb(57, 60, 63);
+	color: rgb(104, 229, 88);
+	border-radius: 5px;
+	box-shadow: 0px 4px 10px rgba(9, 164, 230, 0.5);
+	font-size: 25px;
+	text-shadow: 2px 2px 4px rgba(15, 217, 4, 0.5);
+}
+
+.calcNameText {
+	font-size: 25px;
+	color: #61dafb;
+	text-shadow: 2px 2px 4px rgba(4, 171, 217, 0.7);
+}

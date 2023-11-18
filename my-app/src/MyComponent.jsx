@@ -1,18 +1,19 @@
 // import { useEffect } from "react"
-
+// import styles from './App.module.css';
+import styles from './MyComponent.module.css';
 import { useState } from 'react';
 
 export const MyComponent = () => {
-	const [showText, setShowText] = useState(true);
-	const onClick = (event) => {
-		setShowText(!showText);
+	const [showRedText, setshowRedText] = useState(false);
+	const onClick = () => {
+		setshowRedText(!showRedText);
 		// console.log(event);
 	};
-	const text = <div>Тайный текст</div>
+	const text = <div className={showRedText ? styles.red : styles.white}>Тайный текст</div>
 	return (
 		<>
-			{showText && text}
-			<button className='btn-style' onClick={onClick}>{showText ? 'скрыть' : 'показать'} текст</button>
+			{text}
+			<button className={styles.btnStyle} onClick={onClick}> Изменить цвет текста</button>
 		</>
 	);
 };
